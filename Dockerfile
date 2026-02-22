@@ -8,4 +8,4 @@ RUN chown -R icecast2:icecast /usr/local/icecast
 
 COPY icecast.xml /etc/icecast2/icecast.xml
 
-EXPOSE 10000
+EXPOSE 8000
