@@ -18,7 +18,7 @@
   <hostname>icecast-radio.onrender.com</hostname>
 
   <listen-socket>
-    <port>10000</port>
+    <port>8000</port>
   </listen-socket>
 
   <paths>
