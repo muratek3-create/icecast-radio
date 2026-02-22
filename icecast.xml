@@ -1,4 +1,5 @@
 <icecast>
+
   <location>India</location>
   <admin>admin@test.com</admin>
 
@@ -14,9 +15,16 @@
     <admin-password>admin123</admin-password>
   </authentication>
 
-  <hostname>0.0.0.0</hostname>
+  <hostname>icecast-radio.onrender.com</hostname>
 
   <listen-socket>
     <port>10000</port>
   </listen-socket>
+
+  <paths>
+    <logdir>/usr/local/icecast/logs</logdir>
+    <webroot>/usr/share/icecast2/web</webroot>
+    <adminroot>/usr/share/icecast2/admin</adminroot>
+  </paths>
+
 </icecast>
